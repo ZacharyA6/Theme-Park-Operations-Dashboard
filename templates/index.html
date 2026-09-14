@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Virtual Theme Park</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+<header>
+    <h1>Virtual Theme Park</h1>
+    <p>Ride Operations Dashboard</p>
+</header>
+
+<main>
+    <div id="rides-container"></div>
+</main>
+
+<script
+    src="{{ url_for('static', filename='script.js') }}">
+</script>
+
+<div id="toast"></div>
+
+</body>
+</html>
