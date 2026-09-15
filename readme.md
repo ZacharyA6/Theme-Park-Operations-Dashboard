@@ -56,6 +56,7 @@ PUT /api/rides/<ride_id> - Updates wait time, capacity, and operating status for
 
 ## Project Structure
 
+```text
 theme-park-mvp/
 ├── app.py
 ├── requirements.txt
@@ -64,6 +65,7 @@ theme-park-mvp/
 └── static/
     ├── script.js
     └── style.css
+```
 
 ## Validation and Error Handling
 
